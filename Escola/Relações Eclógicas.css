@@ -1,0 +1,63 @@
+
+strong{
+    color:rgba(0, 0, 255, 0.501)   ;
+}
+#gridcontainer{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 30% 70%;
+
+    grid-template-areas:
+"h s"
+"a m"
+"f f"                            ;
+}
+ul li {
+font-size: 20px;
+list-style: none;
+}
+aside h1,main h1{
+    color: purple;
+}
+
+section img{
+   width:360px   ;
+}
+
+p {
+font-size: 25px;
+}
+
+header{
+    background-color: rgba(128, 128, 128, 0.204);
+    grid-area: h;
+    text-align: start;
+}
+
+.child h1{
+color:purple ;
+}
+
+
+section{
+    background-color:rgba(128, 128, 128, 0.204); 
+    grid-area: s;
+}
+
+
+aside{
+    background-color: rgba(128, 128, 128, 0.792);
+    grid-area: a;
+    text-align: center;
+}
+
+main{
+    background-color: rgba(128, 128, 128, 0.505);
+    grid-area: m;
+    text-align: center;
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.204) ;
+    grid-area: f;
+}
+
